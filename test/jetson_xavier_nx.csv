@@ -1,2 +1,2 @@
-VGG 19,OpenPose,ResNet 50,,SSD MobileNet V2,Super Resolution,Tiny YOLO V3,UNet,VGG 19
-66,144,159,236,318,586,869,889
+SSD MobileNet V2,ResNet 50,Tiny YOLO V3,UNet,Super Resolution,OpenPose,Inception V4,VGG 19
+899,969,586,144,159,236,318,66
