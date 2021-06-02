@@ -1,0 +1,17 @@
+$ python3 examples/detect_image.py \
+  --model test_data/yolov4-tiny-relu-new_coords-int8_edgetpu.tflite \
+  --labels test_data/coco_labels.txt \
+  --input test_data/grace_hopper.bmp
+
+----INFERENCE TIME----
+Note: The first inference is slow because it includes loading the model into Edge TPU memory.
+Traceback (most recent call last):
+  File "examples/detect_image.py", line 108, in <module>
+    main()
+  File "examples/detect_image.py", line 87, in main
+    objs = detect.get_objects(interpreter, args.threshold, scale)
+  File "/usr/lib/python3/dist-packages/pycoral/adapters/detect.py", line 191, in get_objects
+    scores = common.output_tensor(interpreter, 2)[0]
+  File "/usr/lib/python3/dist-packages/pycoral/adapters/common.py", line 29, in output_tensor
+    return interpreter.tensor(interpreter.get_output_details()[i]['index'])()
+IndexError: list index out of range
