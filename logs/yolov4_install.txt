@@ -1,0 +1,20 @@
+$ pip3 install -U yolov4
+Collecting yolov4
+  Using cached https://files.pythonhosted.org/packages/ab/7b/cd3cf1740c13dad3d9b2ed3e130a22c34cefc87bab881c57460d842b1c88/yolov4-3.2.0.tar.gz
+  Installing build dependencies ... done
+Collecting numpy>=1.18.0 (from yolov4)
+  Using cached https://files.pythonhosted.org/packages/f3/1f/fe9459e39335e7d0e372b5e5dcd60f4381d3d1b42f0b9c8222102ff29ded/numpy-1.20.3.zip
+  Installing build dependencies ... done
+Building wheels for collected packages: yolov4, numpy
+  Running setup.py bdist_wheel for yolov4 ... done
+  Stored in directory: /home/mendel/.cache/pip/wheels/a8/13/38/25fe27f3fdd8f172d750cf1fa68e755826941719789f9402e4
+  Running setup.py bdist_wheel for numpy ... done
+  Stored in directory: /home/mendel/.cache/pip/wheels/66/a9/70/32e5710959b9ce13859eb74e382542a6a89acaa00318f9843e
+Successfully built yolov4 numpy
+pycoral 1.0.1 has requirement tflite-runtime==2.5.0, but you'll have tflite-runtime 2.1.0.post1 which is incompatible.
+Installing collected packages: numpy, yolov4
+Successfully installed numpy-1.20.3 yolov4-3.2.0
+
+
+================================================================
+Add swap!!!
