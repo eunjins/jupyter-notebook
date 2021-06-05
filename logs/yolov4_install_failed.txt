@@ -1,0 +1,22 @@
+$ python3 -m pip install yolov4
+Rolling back uninstall of numpy
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-y7e03nc8/numpy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-record-_gvincyo/install-record.txt --single-version-externally-managed --compile --user --prefix=" failed with error code 1 in /tmp/pip-install-y7e03nc8/numpy/
+
+
+$ pip3 uninstall numpy
+$ pip3 install numpy
+$ python3 -m pip install yolov4
+  aarch64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DVERSION_INFO=3.2.0 -Ic_src/ -I/tmp/pip-build-env-fr8rsdsd/lib/python3.7/site-packages/pybind11/include -I/usr/include/python3.7m -c c_src/box.cpp -o build/temp.linux-aarch64-3.7/c_src/box.o -std=c++17 -fvisibility=hidden -g0
+  aarch64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DVERSION_INFO=3.2.0 -Ic_src/ -I/tmp/pip-build-env-fr8rsdsd/lib/python3.7/site-packages/pybind11/include -I/usr/include/python3.7m -c c_src/layers/yolo_layer.cpp -o build/temp.linux-aarch64-3.7/c_src/layers/yolo_layer.o -std=c++17 -fvisibility=hidden -g0
+  aarch64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DVERSION_INFO=3.2.0 -Ic_src/ -I/tmp/pip-build-env-fr8rsdsd/lib/python3.7/site-packages/pybind11/include -I/usr/include/python3.7m -c c_src/py_box.cpp -o build/temp.linux-aarch64-3.7/c_src/py_box.o -std=c++17 -fvisibility=hidden -g0
+  aarch64-linux-gnu-gcc -pthread -DNDEBUG -g -fwrapv -O2 -Wall -g -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -fPIC -DVERSION_INFO=3.2.0 -Ic_src/ -I/tmp/pip-build-env-fr8rsdsd/lib/python3.7/site-packages/pybind11/include -I/usr/include/python3.7m -c c_src/yolov4.cpp -o build/temp.linux-aarch64-3.7/c_src/yolov4.o -std=c++17 -fvisibility=hidden -g0
+  aarch64-linux-gnu-gcc: fatal error: Killed signal terminated program cc1plus
+  compilation terminated.
+  error: command 'aarch64-linux-gnu-gcc' failed with exit status 1
+  aarch64-linux-gnu-gcc: fatal error: Killed signal terminated program cc1plus
+  compilation terminated.
+  ----------------------------------------
+  Failed building wheel for yolov4
+
+$ pip3 install -U yolov4
+Command "/usr/bin/python3 -u -c "import setuptools, tokenize;__file__='/tmp/pip-install-13ef6gqf/numpy/setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" install --record /tmp/pip-record-gknp9aeq/install-record.txt --single-version-externally-managed --compile --user --prefix=" failed with error code 1 in /tmp/pip-install-13ef6gqf/numpy/
